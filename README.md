@@ -51,5 +51,17 @@ set linespace=2
 
 If you're using [Janus][], put custom settings in "~/.vimrc.local" and "~/.gvimrc.local" instead.
 
+## Fonts to try out
+
+* [Inconsolata][]
+* [Anonymous Pro][anon]
+* [DejaVu Sans Mono][dejavu]
+
+Install them on your system, cycle through with `<Leader>f`. On MacVim,
+resize fonts with `⌘-` and `⌘=`. Support for
+systems other than OS X is on the way.
 
 [janus]: https://github.com/carlhuda/janus
+[inconsolata]: http://www.levien.com/type/myfonts/inconsolata.html
+[anon]: http://www.ms-studio.com/FontSales/anonymouspro.html
+[dejavu]: http://dejavu-fonts.org/wiki/Main_Page
