@@ -3,9 +3,17 @@
 Stylish is a vim plugin to help you cycle through available themes and
 fonts on your system.
 
+## Installation
+
 Stylish requires vim to be compiled with ruby support:
 
     $ vim --version | grep ruby
+
+To install, clone or download the repo and:
+
+1. `rake install` – copies the plugin files to your vim directory
+2. `rake symlink` – symlinks the files, good for contributing
+3. `rake uninstall` – uninstalls the plugin
 
 ## Usage
 
